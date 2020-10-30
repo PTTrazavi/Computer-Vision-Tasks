@@ -1,31 +1,36 @@
 # Computer Vision Tasks
 CV Tasks 包含Classification、Object Detection、Semantic Segmentation、Instance Segmentation，以下為一些應用範例。
-### 01 keras-facenet.ipynb
+### 1 keras-facenet.ipynb
 此範例說明如何使用Pre-trained的model來做Face Verification和Face Recognition應用。[1]  
-### 02 Mask R-CNN for Object Detection.ipynb
+### 2 Mask R-CNN for Object Detection.ipynb
 此範例說明如何用Pre-trained的Mask RCNN來做Object Detection和Instance Segmentation。[2]  
-### 03 Transfer Learning by TensorFlow.ipynb
+### 3 Transfer Learning by TensorFlow.ipynb
 此範例說明如何用TensorFlow內建的Pre-trained model來做Classification的Transfer Learning應用。[3]  
 ![transfer learning](images/01.jpg)  
-### 04 retrain customized object detection with tensorflow API.ipynb
+### 4 retrain customized object detection with tensorflow API.ipynb
 此範例說明如何用TensorFlow API訓練自己的Object Detection應用。[4]  
-### 05 retrain semantic segmentation.ipynb
+### 5 retrain semantic segmentation.ipynb
 此範例說明如何使用Pre-trained的model來訓練自己的Semantic Segmentation應用。[5]  
-### 06 detectron2.ipynb
+### 6 detectron2.ipynb
 此範例說明如何使用Detectron2(Pre-trained model)來做Object Detection、Instance Segmentation、Keypoint Detection、Panoptic segmentation。  
 Keypoint Detection為體態辨識。[6]  
 ![img02](images/02.jpg)  
 Panoptic segmentation為instance segmentation和semantic segmentation的結合。在圖中可以被數數量出來的物件 (例：bicycle, dog, car, person)被稱為‘things’，難以被計數的區域(例：pavement, ground, dirt, wall)稱為‘stuff’。[7]  
 ![img03](images/03.jpg)  
-### 07 U-Net segmentation.ipynb
+### 7 U-Net segmentation.ipynb
 此範例說明如何使用U-Net來訓練自己的Semantic Segmentation應用。[8]  
-### 08 Style Transfer.ipynb
+### 8 Style Transfer.ipynb
 此範例介紹圖片Style Transfer應用，輸入原圖和風格圖即可將原圖改變風格。[9]  
-![img04](images/04.jpg)
-### 09 retrain Poly-YOLO.ipynb
+![img04](images/04.jpg)  
+### 9 retrain Poly-YOLO.ipynb
 此範例說明如何使用Poly-YOLO來訓練自己的Object Detection應用。[10]  
-### 10 retrain YOLOv5.ipynb
+### 10 retrainYOLOv5.ipynb
 此範例說明如何使用YOLOv5來訓練自己的Object Detection應用。[11]  
+### 11 StyleGAN pre-trained model exploration.ipynb
+此範例說明如何使用StyleGAN來產生超擬真的人臉，並在fidelity和diversity之間做trade-off。[12][13][14]  
+![img05](images/05.jpg)  
+### 12 BigGAN Pre-trained model exploration.ipynb
+此範例說明如何使用BigGAN來產生上百種的物品圖。[15]  
 
 ## References
 [1] https://github.com/nyoki-mtl/keras-facenet  
@@ -39,3 +44,7 @@ Panoptic segmentation為instance segmentation和semantic segmentation的結合�
 [9] https://github.com/GlebBrykin/SANET  
 [10] https://gitlab.com/irafm-ai/poly-yolo  
 [11] https://github.com/ultralytics/yolov5  
+[12] https://github.com/NVlabs/stylegan  
+[13] https://jonathan-hui.medium.com/gan-stylegan-stylegan2-479bdf256299  
+[14] https://arxiv.org/pdf/1812.04948.pdf  
+[15] https://tfhub.dev/deepmind/biggan-deep-256/1  

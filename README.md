@@ -31,6 +31,8 @@ Panoptic segmentation為instance segmentation和semantic segmentation的結合�
 ![img05](images/05.jpg)  
 ### 12 BigGAN Pre-trained model exploration.ipynb
 此範例說明如何使用BigGAN來產生上百種的物品圖。[15]  
+### 13 Face_Feature_Extraction.ipynb
+此範例說明如何訓練模型擷取臉部特徵點。[15]  
 
 ## References
 [1] https://github.com/nyoki-mtl/keras-facenet  
@@ -48,3 +50,4 @@ Panoptic segmentation為instance segmentation和semantic segmentation的結合�
 [13] https://jonathan-hui.medium.com/gan-stylegan-stylegan2-479bdf256299  
 [14] https://arxiv.org/pdf/1812.04948.pdf  
 [15] https://tfhub.dev/deepmind/biggan-deep-256/1  
+[16] https://towardsdatascience.com/detecting-facial-features-using-deep-learning-2e23c8660a7a
